@@ -1,8 +1,8 @@
 ## Important imports ##
+
 import MySQLdb
 from flask import Flask, request, Response ,jsonify
 import json
-
 ##neccesary code##
 app = Flask(__name__)
 
@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return render_template('homepage.html')
- 
+  
 @app.route("/login", methods = ['POST'])
 def login():
 	#res = request.get_json()
@@ -37,3 +37,4 @@ def login():
 ## To run the Flask##
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001, debug=True)
+
