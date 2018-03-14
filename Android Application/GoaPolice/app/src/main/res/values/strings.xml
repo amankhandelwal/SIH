@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Goa Police App</string>
+    <string-array name="rules">
+        <item>Driving against the flow of traffic</item>
+        <item>Parking on Footpath/Zebra Crossing</item>
+        <item>Triple Riding</item>
+        <item>Improper Number Plate</item>
+        <item>Without Seat Belt</item>
+        <item>Without Helmet</item>
+        <item>Using vehicle with Tinted Glass</item>
+        <item>Video Clip OnlyRed Light Jumping</item>
+        <item>Dangerous Driving</item>
+        <item>Using Mobile while Driving</item>
+    </string-array>
+    <string-array name="doclist">
+        <item>Select Confiscated Document</item>
+        <item>Driving License</item>
+        <item>Smart Card</item>
+        <item>Insurance Paper</item>
+    </string-array>
+    <string name="prompt">Select Confiscated Document</string>
+</resources>
