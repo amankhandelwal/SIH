@@ -9,7 +9,7 @@ app = Flask(__name__)
 # prepare a cursor object using cursor() method
 #cursor = db.cursor()
 
-# execute SQL query using execute() method.
+# execute SQL query using execute() method.`
 
 #cursor.execute("SELECT * FROM movie")
 
