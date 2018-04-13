@@ -9,7 +9,7 @@ app = Flask(__name__)
 ## render 'homepage.html' when 127
 @app.route("/")
 def hello():
-    return render_template('homepage.html')
+	return render_template('homepage.html')
   
 @app.route("/login", methods = ['POST'])
 def login():
@@ -36,5 +36,5 @@ def login():
 
 ## To run the Flask##
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True)
+	app.run(host="0.0.0.0", port=5001, debug=True)
 
